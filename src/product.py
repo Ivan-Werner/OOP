@@ -12,9 +12,9 @@ class Product:
         self.quantity = quantity
 
 
-if __name__ == '__main__':
-    product = Product("Smartphone", "Phone", 100.50, 2)
-    print(product.name)
-    print(product.description)
-    print(product.price)
-    print(product.quantity)
+# if __name__ == '__main__':
+#     product = Product("Smartphone", "Phone", 100.50, 2)
+#     print(product.name)
+#     print(product.description)
+#     print(product.price)
+#     print(product.quantity)
