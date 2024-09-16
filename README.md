@@ -8,7 +8,7 @@
 
 1. Клонируйте репозиторий:
 ```commandline
-https://github.com/Ivan-Werner/OOP
+
 ```
 
 ## Реализация:
