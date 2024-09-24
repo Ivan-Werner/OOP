@@ -2,7 +2,7 @@ from src.product import Product
 
 
 class Category:
-    name1: str
+    name: str
     description: str
     products: list
     category_count = 0
