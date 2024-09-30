@@ -1,6 +1,6 @@
 
 class Product:
-    """Создание класса Продукции """
+    """Создание класса Продукции"""
     name: str
     description: str
     price: float
