@@ -48,4 +48,3 @@ if __name__ == '__main__':
     print(product2.price)
     product2.price = 100
     print(product2.price)
-
