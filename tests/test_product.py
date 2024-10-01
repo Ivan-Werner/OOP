@@ -1,5 +1,4 @@
-from pyexpat.errors import messages
-from pyexpat.errors import messages
+
 
 from src.product import Product
 
