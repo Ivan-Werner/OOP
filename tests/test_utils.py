@@ -2,6 +2,7 @@ import os
 from config import DATA_DIR
 from src.utils import read_json
 
+
 products_path = os.path.join(DATA_DIR, "products.json")
 
 
