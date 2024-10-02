@@ -6,7 +6,6 @@ from src.category import Category
 
 products_path = os.path.join(DATA_DIR, "products.json")
 
-
 def read_json(path: str) -> dict:
     with open(products_path, "r", encoding="utf-8") as file:
         data = json.load(file)
