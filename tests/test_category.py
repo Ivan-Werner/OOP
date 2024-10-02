@@ -15,8 +15,8 @@ def test_category_products_property(first_category):
                                        "Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт.\n")
 
 
-
-def test_category_products_setter(first_category, product):
+def test_add_category(first_category, product):
     assert len(first_category.products_in_list) == 3
-    first_category.products = product
+    first_category.add_product(product)
     assert len(first_category.products_in_list) == 4
+
