@@ -49,9 +49,9 @@ class Product:
 #     print(product2.price)
 #     print(product2.quantity)
 #
-#     # product2.price = -100
-#     # print(product2.price)
-#     # product2.price = 100
-#     # print(product2.price)
+#     product2.price = -100
+#     print(product2.price)
+#     product2.price = 100
+#     print(product2.price)
 #
 #     print(product + product2)
