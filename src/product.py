@@ -15,13 +15,13 @@ class Product:
         return f"{self.name}, {self.price} руб. : {self.quantity}шт."
 
     def __add__(self, other):
-        return self.__price * self.quantity + other.__price * other.quantity
-
+        if type(other) is self.__class__:
+            return (self.__price * self.quantity) + (other.__price * other.quantity)
+        raise TypeError
 
     @classmethod
     def new_product(cls, product_dict: dict):
         return cls(**product_dict)
-
 
     @property
     def price(self):
@@ -33,7 +33,6 @@ class Product:
             print("Цена не должна быть нулевая или отрицательная")
             return
         self.__price = new_price
-
 
 
 # if __name__ == '__main__':
@@ -50,7 +49,9 @@ class Product:
 #     print(product2.price)
 #     print(product2.quantity)
 #
-#     product2.price = -100
-#     print(product2.price)
-#     product2.price = 100
-#     print(product2.price)
+#     # product2.price = -100
+#     # print(product2.price)
+#     # product2.price = 100
+#     # print(product2.price)
+#
+#     print(product + product2)
