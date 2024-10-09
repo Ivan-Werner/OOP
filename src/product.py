@@ -1,4 +1,5 @@
 class Product:
+    """Класс, уписывающий параметры продукции"""
 
     name: str
     description: str

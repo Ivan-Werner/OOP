@@ -3,6 +3,7 @@ from src.smartphone import Smartphone
 from src.lawn_grass import LawnGrass
 
 class Category:
+    """Класс, описывающий категории продукции"""
     name: str
     description: str
     products: list
