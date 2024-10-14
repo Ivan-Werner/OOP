@@ -1,4 +1,5 @@
 import pytest
+
 from src.product import Product
 from src.category import Category
 from src.product_iterator import ProductIterator
@@ -69,7 +70,6 @@ def test_lawn_grass1():
 @pytest.fixture
 def test_lawn_grass2():
     return LawnGrass("Газонная трава 2", "Выносливая трава", 450.0, 15, "США", "5 дней", "Темно-зеленый")
-
 
 
 
