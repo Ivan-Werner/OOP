@@ -25,3 +25,5 @@ def test_add_category(first_category, product):
 def test_category_str(first_category):
     assert str(first_category) == "Смартфоны, количество продуктов 27 шт."
 
+def test_middle_price(first_category):
+    assert first_category.middle_price() == 15592.592592592593
