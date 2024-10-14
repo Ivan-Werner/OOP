@@ -3,7 +3,7 @@ from src.print_mixin import PrintMixin
 
 
 class Product(BaseProduct, PrintMixin):
-    """Класс, уписывающий параметры продукции"""
+    """Класс, уписывающий параметры продукции."""
 
     name: str
     description: str
